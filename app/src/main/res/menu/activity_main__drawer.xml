@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_menu_profile"
+            />
+        <item
+            android:id="@+id/find_friend"
+            android:title="Find Friend"
+            android:icon="@drawable/ic_menu_findfriends"/>
+        <item
+            android:id="@+id/log_out"
+            android:title="Sign Out"
+            android:icon="@drawable/ic_menu_logout"/>
+    </group>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/developer"
+                android:title="About Us"
+                android:icon="@drawable/ic_menu_send"/>
+        </menu>
+    </item>
+
+</menu>

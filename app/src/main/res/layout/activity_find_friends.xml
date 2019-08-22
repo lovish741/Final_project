@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    tools:context=".find_friends">
+
+    <include
+        android:id="@+id/user_appbar"
+        layout="@layout/app_bar_layout" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="77dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/find_friend_textbox"
+            android:layout_width="290sp"
+            android:layout_height="wrap_content"
+            android:hint="User Name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/user_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="150sp"
+        android:background="#e0e0e0" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-77dp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="77dp"
+        android:background="@drawable/roundbutton"
+        android:text="Search"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

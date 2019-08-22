@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1039840668020",
+    "firebase_url": "https://gossipbox-ff152.firebaseio.com",
+    "project_id": "gossipbox-ff152",
+    "storage_bucket": "gossipbox-ff152.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039840668020:android:c16ee1e801bd76ea",
+        "android_client_info": {
+          "package_name": "com.lovish.areeba.gossipbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039840668020-mfs303r2mo09sm0b9449s5fugvns1c8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lovish.areeba.gossipbox",
+            "certificate_hash": "b33bf0dfb8c71bfaface61bbe2d066f595a2a16d"
+          }
+        },
+        {
+          "client_id": "1039840668020-b85m8vqggnfc0qhjls0r8o7sg8r1mndm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQV6dNGRFAQh3zlNyPvKG4eaube79_KP4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039840668020-b85m8vqggnfc0qhjls0r8o7sg8r1mndm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
